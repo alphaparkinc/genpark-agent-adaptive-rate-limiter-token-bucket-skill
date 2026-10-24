@@ -1,0 +1,7 @@
+name: genpark-agent-adaptive-rate-limiter-token-bucket-skill
+description: Token bucket rate limiter featuring dynamic burst allowance and exponential backoff adaptation for high-concurrency LLM agents
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
